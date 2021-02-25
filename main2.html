@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Semester GPA calculator</title>
+
+
+    <script>
+    function refresh() {
+   location.replace("file:///C:/Users/Muhammad%20Abdullah/Desktop/cgpa/main2.html")}
+
+      function submit()
+      {
+        
+
+
+        var getsub1=document.getElementById("sub1").value;
+        var getsub2=document.getElementById("sub2").value;
+        var getsub3=document.getElementById("sub3").value;
+        var getsub4=document.getElementById("sub4").value;
+        var getsub5=document.getElementById("sub5").value;
+
+        var getcrh1=document.getElementById("crh1").value;
+        var getcrh2=document.getElementById("crh2").value;
+        var getcrh3=document.getElementById("crh3").value;
+        var getcrh4=document.getElementById("crh4").value;
+        var getcrh5=document.getElementById("crh5").value;
+
+        
+
+
+        var getom1=document.getElementById("om1").value;
+        var getom2=document.getElementById("om2").value;
+        var getom3=document.getElementById("om3").value;
+        var getom4=document.getElementById("om4").value;
+        var getom5=document.getElementById("om5").value;
+
+        
+      
+         var gp1,gp2,gp3,gp4,gp5;
+                               ////////////////////////////////gp1//////////////////////////////
+          if(getom1<50)
+          { 
+             gp1=0;
+             
+          }
+          
+            //////////////////////////D///////////////////////////
+          else if(getom1>=50 && getom1<=59)
+          {
+              if(getom1==50)
+              {
+                gp1=1;
+              }
+              else if(getom1==51)
+              {
+                gp1=1.1
+                
+              }
+              else if(getom1==52)
+              {
+                gp1=1.2
+                
+              }
+              else if(getom1==53)
+              {
+                gp1=1.3
+                
+              }
+              else if(getom1==54)
+              {
+                gp1=1.4
+                
+              }
+              else if(getom1==55)
+              {
+                gp1=1.5
+                
+              }
+              else if(getom1==56)
+              {
+                gp1=1.6
+                
+              }
+              else if(getom1==57)
+              {
+                gp1=1.7
+                
+              }
+              else if(getom1==58)
+              {
+                gp1=1.8
+                
+              }
+              else if(getom1==59)
+              {
+                gp1=1.9
+                
+              }}
+
+
+              //////////////////////////C///////////////////////////
+              else if(getom1>=60 && getom1<=69)
+          {
+              if(getom1==60)
+              {
+                gp1=2.0;
+              }
+              else if(getom1==61)
+              {
+                gp1=2.1
+                
+              }
+              else if(getom1==62)
+              {
+                gp1=2.2
+                
+              }
+              else if(getom1==63)
+              {
+                gp1=2.3
+                
+              }
+              else if(getom1==64)
+              {
+                gp1=2.4
+                
+              }
+              else if(getom1==65)
+              {
+                gp1=2.5
+                
+              }
+              else if(getom1==66)
+              {
+                gp1=2.6
+                
+              }
+              else if(getom1==67)
+              {
+                gp1=2.7
+                
+              }
+              else if(getom1==68)
+              {
+                gp1=2.8
+                
+              }
+              else if(getom1==69)
+              {
+                gp1=2.9
+                
+              }
+
+          }
+
+          //////////////////////////B///////////////////////////
+          else if(getom1>=70 && getom1<=79)
+          {
+              if(getom1==70)
+              {
+                gp1=3.0;
+              }
+              else if(getom1==71)
+              {
+                gp1=3.1
+                
+              }
+              else if(getom1==72)
+              {
+                gp1=3.2
+                
+              }
+              else if(getom1==73)
+              {
+                gp1=3.3
+                
+              }
+              else if(getom1==74)
+              {
+                gp1=3.4
+                
+              }
+              else if(getom1==75)
+              {
+                gp1=3.5
+                
+              }
+              else if(getom1==76)
+              {
+                gp1=3.6
+                
+              }
+              else if(getom1==77)
+              {
+                gp1=3.7
+                
+              }
+              else if(getom1==78)
+              {
+                gp1=3.8
+                
+              }
+              else if(getom1==79)
+              {
+                gp1=3.9
+                
+              }
+
+          }
+
+          //////////////////////////A///////////////////////////
+          else if(getom1>=80)
+          {
+              if(getom1==80)
+              {
+                gp1=4;
+              }
+              else if(getom1==81)
+              {
+                gp1=4
+                
+              }
+              else if(getom1==82)
+              {
+                gp1=4
+                
+              }
+              else if(getom1==83)
+              {
+                gp1=4
+                
+              }
+              else if(getom1==84)
+              {
+                gp1=4
+                
+              }
+              else if(getom1==85)
+              {
+                gp1=4
+                
+              }
+              else if(getom1==86)
+              {
+                gp1=4
+                
+              }
+              else if(getom1==87)
+              {
+                gp1=4
+                
+              }
+              else if(getom1==88)
+              {
+                gp1=4
+                
+              }
+              else if(getom1==89)
+              {
+                gp1=4
+                
+              }
+              else
+              {
+                gp1=4
+                
+              }}
+
+
+        ////////////////////////////////gp2//////////////////////////////  
+        if(getom2<50)
+          { 
+             gp2=0;
+             
+          }
+          
+            //////////////////////////D///////////////////////////
+          else if(getom2>=50 && getom2<=59)
+          {
+              if(getom2==50)
+              {
+                gp2=1;
+              }
+              else if(getom2==51)
+              {
+                gp2=1.1
+                
+              }
+              else if(getom2==52)
+              {
+                gp2=1.2
+                
+              }
+              else if(getom2==53)
+              {
+                gp2=1.3
+                
+              }
+              else if(getom2==54)
+              {
+                gp2=1.4
+                
+              }
+              else if(getom2==55)
+              {
+                gp2=1.5
+                
+              }
+              else if(getom2==56)
+              {
+                gp2=1.6
+                
+              }
+              else if(getom2==57)
+              {
+                gp2=1.7
+                
+              }
+              else if(getom2==58)
+              {
+                gp2=1.8
+                
+              }
+              else if(getom2==59)
+              {
+                gp2=1.9
+                
+              }}
+
+
+              //////////////////////////C///////////////////////////
+              else if(getom2>=60 && getom2<=69)
+          {
+              if(getom2==60)
+              {
+                gp2=2.0;
+              }
+              else if(getom2==61)
+              {
+                gp2=2.1
+                
+              }
+              else if(getom2==62)
+              {
+                gp2=2.2
+                
+              }
+              else if(getom2==63)
+              {
+                gp2=2.3
+                
+              }
+              else if(getom2==64)
+              {
+                gp2=2.4
+                
+              }
+              else if(getom2==65)
+              {
+                gp2=2.5
+                
+              }
+              else if(getom2==66)
+              {
+                gp2=2.6
+                
+              }
+              else if(getom2==67)
+              {
+                gp2=2.7
+                
+              }
+              else if(getom2==68)
+              {
+                gp2=2.8
+                
+              }
+              else if(getom2==69)
+              {
+                gp2=2.9
+                
+              }
+
+          }
+
+          //////////////////////////B///////////////////////////
+          else if(getom2>=70 && getom2<=79)
+          {
+              if(getom2==70)
+              {
+                gp2=3.0;
+              }
+              else if(getom2==71)
+              {
+                gp2=3.1
+                
+              }
+              else if(getom2==72)
+              {
+                gp2=3.2
+                
+              }
+              else if(getom2==73)
+              {
+                gp2=3.3
+                
+              }
+              else if(getom2==74)
+              {
+                gp2=3.4
+                
+              }
+              else if(getom2==75)
+              {
+                gp2=3.5
+                
+              }
+              else if(getom2==76)
+              {
+                gp2=3.6
+                
+              }
+              else if(getom2==77)
+              {
+                gp2=3.7
+                
+              }
+              else if(getom2==78)
+              {
+                gp2=3.8
+                
+              }
+              else if(getom2==79)
+              {
+                gp2=3.9
+                
+              }
+
+          }
+
+          //////////////////////////A///////////////////////////
+          else if(getom2>=80)
+          {
+              if(getom2==80)
+              {
+                gp2=4;
+              }
+              else if(getom2==81)
+              {
+                gp2=4
+                
+              }
+              else if(getom2==82)
+              {
+                gp2=4
+                
+              }
+              else if(getom2==83)
+              {
+                gp2=4
+                
+              }
+              else if(getom2==84)
+              {
+                gp2=4
+                
+              }
+              else if(getom2==85)
+              {
+                gp2=4
+                
+              }
+              else if(getom2==86)
+              {
+                gp2=4
+                
+              }
+              else if(getom2==87)
+              {
+                gp2=4
+                
+              }
+              else if(getom2==88)
+              {
+                gp2=4
+                
+              }
+              else if(getom2==89)
+              {
+                gp2=4
+                
+              }
+              else
+              {
+                gp2=4
+                
+              }}
+        ////////////////////////////////////////gp3/////////////////////////////////
+        if(getom3<50)
+          { 
+             gp3=0;
+             
+          }
+          
+            //////////////////////////D///////////////////////////
+          else if(getom3>=50 && getom3<=59)
+          {
+              if(getom3==50)
+              {
+                gp3=1;
+              }
+              else if(getom3==51)
+              {
+                gp3=1.1
+                
+              }
+              else if(getom3==52)
+              {
+                gp3=1.2
+                
+              }
+              else if(getom3==53)
+              {
+                gp3=1.3
+                
+              }
+              else if(getom3==54)
+              {
+                gp3=1.4
+                
+              }
+              else if(getom3==55)
+              {
+                gp3=1.5
+                
+              }
+              else if(getom3==56)
+              {
+                gp3=1.6
+                
+              }
+              else if(getom3==57)
+              {
+                gp3=1.7
+                
+              }
+              else if(getom3==58)
+              {
+                gp3=1.8
+                
+              }
+              else if(getom3==59)
+              {
+                gp3=1.9
+                
+              }}
+
+
+              //////////////////////////C///////////////////////////
+              else if(getom3>=60 && getom3<=69)
+          {
+              if(getom3==60)
+              {
+                gp3=2.0;
+              }
+              else if(getom3==61)
+              {
+                gp3=2.1
+                
+              }
+              else if(getom3==62)
+              {
+                gp3=2.2
+                
+              }
+              else if(getom3==63)
+              {
+                gp3=2.3
+                
+              }
+              else if(getom3==64)
+              {
+                gp3=2.4
+                
+              }
+              else if(getom3==65)
+              {
+                gp3=2.5
+                
+              }
+              else if(getom3==66)
+              {
+                gp3=2.6
+                
+              }
+              else if(getom3==67)
+              {
+                gp3=2.7
+                
+              }
+              else if(getom3==68)
+              {
+                gp3=2.8
+                
+              }
+              else if(getom3==69)
+              {
+                gp3=2.9
+                
+              }
+
+          }
+
+          //////////////////////////B///////////////////////////
+          else if(getom3>=70 && getom3<=79)
+          {
+              if(getom3==70)
+              {
+                gp3=3.0;
+              }
+              else if(getom3==71)
+              {
+                gp3=3.1
+                
+              }
+              else if(getom3==72)
+              {
+                gp3=3.2
+                
+              }
+              else if(getom3==73)
+              {
+                gp3=3.3
+                
+              }
+              else if(getom3==74)
+              {
+                gp3=3.4
+                
+              }
+              else if(getom3==75)
+              {
+                gp3=3.5
+                
+              }
+              else if(getom3==76)
+              {
+                gp3=3.6
+                
+              }
+              else if(getom3==77)
+              {
+                gp3=3.7
+                
+              }
+              else if(getom3==78)
+              {
+                gp3=3.8
+                
+              }
+              else if(getom3==79)
+              {
+                gp3=3.9
+                
+              }
+
+          }
+
+          //////////////////////////A///////////////////////////
+          else if(getom3>=80)
+          {
+              if(getom3==80)
+              {
+                gp3=4;
+              }
+              else if(getom3==81)
+              {
+                gp3=4
+                
+              }
+              else if(getom3==82)
+              {
+                gp3=4
+                
+              }
+              else if(getom3==83)
+              {
+                gp3=4
+                
+              }
+              else if(getom3==84)
+              {
+                gp3=4
+                
+              }
+              else if(getom3==85)
+              {
+                gp3=4
+                
+              }
+              else if(getom3==86)
+              {
+                gp3=4
+                
+              }
+              else if(getom3==87)
+              {
+                gp3=4
+                
+              }
+              else if(getom3==88)
+              {
+                gp3=4
+                
+              }
+              else if(getom3==89)
+              {
+                gp3=4
+                
+              }
+              else
+              {
+                gp3=4
+                
+              }}
+            
+              
+                ////////////////////////////////gp4///////////////////////////////
+                if(getom4<50)
+          { 
+             gp4=0;
+             
+          }
+          
+            //////////////////////////D///////////////////////////
+          else if(getom4>=50 && getom4<=59)
+          {
+              if(getom4==50)
+              {
+                gp4=1;
+              }
+              else if(getom4==51)
+              {
+                gp4=1.1
+                
+              }
+              else if(getom4==52)
+              {
+                gp4=1.2
+                
+              }
+              else if(getom4==53)
+              {
+                gp4=1.3
+                
+              }
+              else if(getom4==54)
+              {
+                gp4=1.4
+                
+              }
+              else if(getom4==55)
+              {
+                gp4=1.5
+                
+              }
+              else if(getom4==56)
+              {
+                gp4=1.6
+                
+              }
+              else if(getom4==57)
+              {
+                gp4=1.7
+                
+              }
+              else if(getom4==58)
+              {
+                gp4=1.8
+                
+              }
+              else if(getom4==59)
+              {
+                gp4=1.9
+                
+              }}
+
+
+              //////////////////////////C///////////////////////////
+              else if(getom4>=60 && getom4<=69)
+          {
+              if(getom4==60)
+              {
+                gp4=2.0;
+              }
+              else if(getom4==61)
+              {
+                gp4=2.1
+                
+              }
+              else if(getom4==62)
+              {
+                gp4=2.2
+                
+              }
+              else if(getom4==63)
+              {
+                gp4=2.3
+                
+              }
+              else if(getom4==64)
+              {
+                gp4=2.4
+                
+              }
+              else if(getom4==65)
+              {
+                gp4=2.5
+                
+              }
+              else if(getom4==66)
+              {
+                gp4=2.6
+                
+              }
+              else if(getom4==67)
+              {
+                gp4=2.7
+                
+              }
+              else if(getom4==68)
+              {
+                gp4=2.8
+                
+              }
+              else if(getom4==69)
+              {
+                gp4=2.9
+                
+              }
+
+          }
+
+          //////////////////////////B///////////////////////////
+          else if(getom4>=70 && getom4<=79)
+          {
+              if(getom4==70)
+              {
+                gp4=3.0;
+              }
+              else if(getom4==71)
+              {
+                gp4=3.1
+                
+              }
+              else if(getom4==72)
+              {
+                gp4=3.2
+                
+              }
+              else if(getom4==73)
+              {
+                gp4=3.3
+                
+              }
+              else if(getom4==74)
+              {
+                gp4=3.4
+                
+              }
+              else if(getom4==75)
+              {
+                gp4=3.5
+                
+              }
+              else if(getom4==76)
+              {
+                gp4=3.6
+                
+              }
+              else if(getom4==77)
+              {
+                gp4=3.7
+                
+              }
+              else if(getom4==78)
+              {
+                gp4=3.8
+                
+              }
+              else if(getom4==79)
+              {
+                gp4=3.9
+                
+              }
+
+          }
+
+          //////////////////////////A///////////////////////////
+          else if(getom4>=80)
+          {
+              if(getom4==80)
+              {
+                gp4=4;
+              }
+              else if(getom4==81)
+              {
+                gp4=4
+                
+              }
+              else if(getom4==82)
+              {
+                gp4=4
+                
+              }
+              else if(getom4==83)
+              {
+                gp4=4
+                
+              }
+              else if(getom4==84)
+              {
+                gp4=4
+                
+              }
+              else if(getom4==85)
+              {
+                gp4=4
+                
+              }
+              else if(getom4==86)
+              {
+                gp4=4
+                
+              }
+              else if(getom4==87)
+              {
+                gp4=4
+                
+              }
+              else if(getom4==88)
+              {
+                gp4=4
+                
+              }
+              else if(getom4==89)
+              {
+                gp4=4
+                
+              }
+              else
+              {
+                gp4=4
+                
+              }}
+
+              /////////////////////////////gp5////////////////////////
+
+              if(getom5<50)
+          { 
+             gp5=0;
+             
+          }
+          
+            //////////////////////////D///////////////////////////
+          else if(getom5>=50 && getom5<=59)
+          {
+              if(getom5==50)
+              {
+                gp5=1;
+              }
+              else if(getom5==51)
+              {
+                gp5=1.1
+                
+              }
+              else if(getom5==52)
+              {
+                gp5=1.2
+                
+              }
+              else if(getom5==53)
+              {
+                gp5=1.3
+                
+              }
+              else if(getom5==54)
+              {
+                gp5=1.4
+                
+              }
+              else if(getom5==55)
+              {
+                gp5=1.5
+                
+              }
+              else if(getom5==56)
+              {
+                gp5=1.6
+                
+              }
+              else if(getom5==57)
+              {
+                gp5=1.7
+                
+              }
+              else if(getom5==58)
+              {
+                gp5=1.8
+                
+              }
+              else if(getom5==59)
+              {
+                gp5=1.9
+                
+              }}
+
+
+              //////////////////////////C///////////////////////////
+              else if(getom5>=60 && getom5<=69)
+          {
+              if(getom5==60)
+              {
+                gp5=2.0;
+              }
+              else if(getom5==61)
+              {
+                gp5=2.1
+                
+              }
+              else if(getom5==62)
+              {
+                gp5=2.2
+                
+              }
+              else if(getom5==63)
+              {
+                gp5=2.3
+                
+              }
+              else if(getom5==64)
+              {
+                gp5=2.4
+                
+              }
+              else if(getom5==65)
+              {
+                gp5=2.5
+                
+              }
+              else if(getom5==66)
+              {
+                gp5=2.6
+                
+              }
+              else if(getom5==67)
+              {
+                gp5=2.7
+                
+              }
+              else if(getom5==68)
+              {
+                gp5=2.8
+                
+              }
+              else if(getom5==69)
+              {
+                gp5=2.9
+                
+              }
+
+          }
+
+          //////////////////////////B///////////////////////////
+          else if(getom5>=70 && getom5<=79)
+          {
+              if(getom5==70)
+              {
+                gp5=3.0;
+              }
+              else if(getom5==71)
+              {
+                gp5=3.1
+                
+              }
+              else if(getom5==72)
+              {
+                gp5=3.2
+                
+              }
+              else if(getom5==73)
+              {
+                gp5=3.3
+                
+              }
+              else if(getom5==74)
+              {
+                gp5=3.4
+                
+              }
+              else if(getom5==75)
+              {
+                gp5=3.5
+                
+              }
+              else if(getom5==76)
+              {
+                gp5=3.6
+                
+              }
+              else if(getom5==77)
+              {
+                gp5=3.7
+                
+              }
+              else if(getom5==78)
+              {
+                gp5=3.8
+                
+              }
+              else if(getom5==79)
+              {
+                gp5=3.9
+                
+              }
+
+          }
+
+          //////////////////////////A///////////////////////////
+          else if(getom5>=80)
+          {
+              if(getom5==80)
+              {
+                gp5=4;
+              }
+              else if(getom5==81)
+              {
+                gp5=4
+                
+              }
+              else if(getom5==82)
+              {
+                gp5=4
+                
+              }
+              else if(getom5==83)
+              {
+                gp5=4
+                
+              }
+              else if(getom5==84)
+              {
+                gp5=4
+                
+              }
+              else if(getom5==85)
+              {
+                gp5=4
+                
+              }
+              else if(getom5==86)
+              {
+                gp5=4
+                
+              }
+              else if(getom5==87)
+              {
+                gp5=4
+                
+              }
+              else if(getom5==88)
+              {
+                gp5=4
+                
+              }
+              else if(getom5==89)
+              {
+                gp5=4
+                
+              }
+              else
+              {
+                gp5=4
+                
+              }}
+
+         
+         
+         
+         var getcrh1F = parseFloat(getcrh1);
+         var getcrh2F = parseFloat(getcrh2);
+         var getcrh3F = parseFloat(getcrh3);
+         var getcrh4F = parseFloat(getcrh4);
+         var getcrh5F = parseFloat(getcrh5);
+
+         
+
+         total_crh= (getcrh1F+getcrh2F+getcrh3F+getcrh4F+getcrh5F);
+         var toalP1=(gp1*getcrh1);
+         var toalP2=(gp2*getcrh2);
+         var toalP3=(gp3*getcrh3);
+         var toalP4=(gp4*getcrh4);
+         var toalP5=(gp5*getcrh5);
+
+         var sum_totalp=toalP1+toalP2+toalP3+toalP4+toalP5;
+        
+         
+         var GPA=(sum_totalp/total_crh);
+         
+
+         
+         var i = 0;
+var txt = "Your Result :" +GPA.toString();
+var speed = 50;
+
+function typeWriter() 
+{ 
+  if (i < txt.length){
+    document.getElementById("result0").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
+typeWriter();
+         
+         
+         
+         
+  }
+
+
+  
+      
+        
+
+      
+    </script>
+
+</head>
+
+<body style="background-image: url('gg.jpg');">
+<div>
+  <h2 style="text-align:center;color: white;">Welcome To Semester GPA Calculator</h2>
+
+  <table style="margin-right:auto;;margin-left:auto;border: 2px solid rgb(255, 255, 255); border-color: rgb(255, 255, 255);padding: 3px;">
+    <tr style="color: white;">
+      <th>Subject Name</th>
+
+      <th>Credit Hours</th>
+
+      <th>Obtained Marks</th>
+    </tr>
+  
+
+    <tr>
+      <td>
+        <input id="sub1" type="text" style="text-align:center;"> 
+      </td>
+
+      <td>
+        <input id="crh1" type="number" style="text-align:center;">
+      </td>
+
+      <td>
+        <input id="om1" type="number" style="text-align:center;">
+      </td>
+      </tr>
+
+
+
+      <tr>
+        <td>
+          <input id="sub2" type="text" style="text-align:center;">
+        </td>
+  
+        <td>
+          <input id="crh2" type="number" style="text-align:center;">
+        </td>
+  
+        <td>
+          <input id="om2" type="number" style="text-align:center;">
+        </td>
+        </tr>
+
+
+
+        <tr>
+          <td>
+            <input id="sub3" type="text" style="text-align:center;">
+          </td>
+    
+          <td>
+            <input id="crh3" type="number" style="text-align:center;">
+          </td>
+    
+          <td>
+            <input id="om3" type="number" style="text-align:center;">
+          </td>
+          </tr>
+
+
+
+          <tr>
+            <td>
+              <input id="sub4" type="text" style="text-align:center;">
+            </td>
+      
+            <td>
+              <input id="crh4" type="number" style="text-align:center;">
+            </td>
+      
+            <td>
+              <input id="om4" type="number" style="text-align:center;">
+            </td>
+            </tr>
+
+
+            <tr>
+              <td>
+                <input id="sub5" type="text" style="text-align:center;">
+              </td>
+        
+              <td>
+                <input id="crh5" type="number" style="text-align:center;">
+              </td>
+        
+              <td>
+                <input id="om5" type="number" style="text-align:center;">
+              </td>
+              </tr>
+
+
+
+     <tr>
+      <td><input type="button" value="Calculate GPA" onclick="submit();"></td>
+      <td><input type="button" value="Refresh Page" onclick="refresh();"></td>
+     </tr>
+
+  </table>
+  <h1 id="result0" style="color: white;text-align: center;background-color: rgb(94, 94, 255);"></h1>
+  
+  
+  
+</div>
+</body>
+</html>

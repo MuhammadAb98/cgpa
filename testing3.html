@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <script>
+    function pro()
+    {
+        var getval= document.getElementById("test1").value;
+        var show= document.getElementById("show").value;
+
+        console.log(getval)
+
+        document.getElementById("show").innerHTML=getval
+
+        
+    }
+    </script>
+
+</head>
+<body>
+    <table>
+    <tr>
+        <td><input type="text" id="test1"></td>
+    </tr>
+
+    <tr>
+        <td><input type="button" onclick="pro()"></td>
+    </tr>
+    
+<tr>
+    <td><h1 id="show"></h1></td>
+</tr>
+    
+
+    </table>
+</body>
+</html>
